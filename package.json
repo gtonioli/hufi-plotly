@@ -1,0 +1,10 @@
+{
+  "name": "hufi-plotly",
+  "version": "1.0.0",
+  "scripts": {},
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}
