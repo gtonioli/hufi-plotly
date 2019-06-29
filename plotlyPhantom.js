@@ -68,7 +68,13 @@ page.open("file:///" + rootPath + "/html/index.html", function (status) {
             plotObject.layout = wrapper.layout;
         }
 
-        Plotly.newPlot('chart', plotObject);
+        var layout = {
+            yaxis: {
+                autorange: false
+            }
+        };
+
+        Plotly.newPlot('chart', plotObject, layout);
 
         return document.querySelector('#chart .svg-container').getBoundingClientRect();
     }, data, layout);
