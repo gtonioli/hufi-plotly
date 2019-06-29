@@ -70,7 +70,8 @@ page.open("file:///" + rootPath + "/html/index.html", function (status) {
 
         var layout = {
             yaxis: {
-                autorange: false
+                autorange: false,
+                rangemode: "tozero"
             }
         };
 
